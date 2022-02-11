@@ -1,0 +1,49 @@
+a=input("enter student name:")
+r=int(input("enter roll no:"))
+s1=int(input("enter s1 marks:"))
+s2=int(input("enter s2 marks:"))
+s3=int(input("enter s3 marks:"))
+s4=int(input("enter s4 marks:"))
+s5=int(input("enter s5 marks:"))
+s6=int(input("enter s6 marks:"))
+total=s1+s2+s3+s4+s5+s6
+avg=total/s6
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print("pass")
+    if avg>=93:
+      print("grade-o")
+    elif avg>=83:
+      print("grade-a")
+    elif avg>=73:
+      print("grade-b")
+    elif avg>=63:
+      print("grade-c")
+    elif avg>=50:
+      print("grade-d")
+    elif avg>=55:
+      print("grade-e")
+else:
+    print("fail")
+  OUTPUT:
+  enter student name:lalitha
+  enter roll no:1
+  enter s1 marks:21
+  enter s2 marks:98
+  enter s3 marks:76
+  enter s4 marks:87
+  enter s5 marks:70
+  enter s6 marks:76
+  FAIL
+  2)-------------------------
+  enter student name:lalitha
+  enter roll no:1
+  enter s1 marks:98
+  enter s2 marks:98
+  enter s3 marks:97
+  enter s4 marks:93
+  enter s5 marks:94
+  enter s6 marks:91
+  pass
+  grade-o
+    
+    
